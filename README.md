@@ -15,6 +15,20 @@ Then simply run the main.py file
 python3 main.py
 ```
 
+## Examples
+
+Creating list with areacode 456
+
+```
+python3 main.py --staticnum 456 --filename 456-phones.list
+```
+
+Adding US code to numbers
+
+```
+python3 main.py --prefix +1 --filename 456-phones.list
+```
+
 ## Help
 
 ```
